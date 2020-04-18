@@ -1,8 +1,31 @@
 inherit_from:
   - .rubocop_todo.yml
 
-Style/Encoding:
-  Enabled: false
-
 Layout/LineLength:
   Max: 120
+
+Layout/ExtraSpacing:
+  Enabled: true
+  ForceEqualSignAlignment: false 
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+Lint/RaiseException:
+  Enabled: false #TODO: revisit later
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Style/ExponentialNotation:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: false
+
+Style/HashTransformKeys:
+  Enabled: false
+
+Style/HashTransformValues:
+  Enabled: false
+
