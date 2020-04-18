@@ -1,5 +1,5 @@
-# guessing_game
-Simple game for guessing numebrs
+# Number guessing game
+Simple game for guessing numbers from 0 to 100
 
 ## Prerequisites:
 - [rbenv](https://github.com/rbenv/rbenv) - Installation instructions can be found [here](https://github.com/rbenv/rbenv#installation)
